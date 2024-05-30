@@ -1,0 +1,65 @@
+/* styles.css */
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+
+
+
+body {
+    font-family: "Gowun Batang", serif;
+    background-color: #F4C6C3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#contain {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.movie-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+}
+
+.movie-card-content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.movie-card h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.2em;
+}
+
+.movie-card p {
+    flex-grow: 1;
+    font-size: 0.9em;
+    margin: 0 0 10px 0;
+}
+
+.movie-card .rating {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #333;
+}
+
